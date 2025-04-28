@@ -68,6 +68,27 @@ export const images: ImageData[] = [
   },
   {
     id: '5',
+    title: 'Magas1',
+    description: 'On shoppe',
+    filename: 'magas.jpg',
+    category: 'landscape'
+  },
+  {
+    id: '6',
+    title: 'Pigeon',
+    description: 'Compagnon parisien bien aimable',
+    filename: 'pigeon.jpg',
+    category: 'landscape'
+  },
+  {
+    id: '7',
+    title: 'Possion',
+    description: 'On aura tout vu',
+    filename: 'possion.jpg',
+    category: 'landscape'
+  },
+  {
+    id: '8',
     title: 'Boulange',
     description: 'Rêve près de chez moi',
     filename: 'boulange.jpg',
