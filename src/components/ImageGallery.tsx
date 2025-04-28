@@ -5,6 +5,10 @@ const ImageGallery = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [showDescription, setShowDescription] = useState(false);
 
+  const getImageUrl = (filename: string) => {
+    return new URL(`../assets/images/gallery/${filename}`, import.meta.url).href;
+  };
+
   return (
     <div className="h-screen pt-16 sm:pt-20 p-3 sm:p-6 flex items-center">
       <div className="flex flex-col lg:flex-row items-center lg:items-center gap-3 sm:gap-6 max-w-[1600px] mx-auto h-full">
@@ -25,7 +29,7 @@ const ImageGallery = () => {
                 }}
               >
                 <img
-                  src={`/src/assets/images/gallery/${image.filename}`}
+                  src={getImageUrl(image.filename)}
                   alt={image.title}
                   className="w-full h-full object-cover rounded-lg shadow-lg"
                 />
@@ -51,7 +55,7 @@ const ImageGallery = () => {
                 }}
               >
                 <img
-                  src={`/src/assets/images/gallery/${image.filename}`}
+                  src={getImageUrl(image.filename)}
                   alt={image.title}
                   className="w-full h-full object-cover rounded-xl shadow-lg"
                 />
@@ -67,7 +71,7 @@ const ImageGallery = () => {
             onClick={() => setShowDescription(!showDescription)}
           >
             <img
-              src={`/src/assets/images/gallery/${images[selectedIndex].filename}`}
+              src={getImageUrl(images[selectedIndex].filename)}
               alt={images[selectedIndex].title}
               className="w-full h-full object-contain rounded-2xl sm:rounded-3xl shadow-2xl transition-transform duration-500 group-hover:scale-[1.01]"
             />
@@ -103,7 +107,7 @@ const ImageGallery = () => {
                 }}
               >
                 <img
-                  src={`/src/assets/images/gallery/${image.filename}`}
+                  src={getImageUrl(image.filename)}
                   alt={image.title}
                   className="w-full h-full object-cover rounded-xl shadow-lg"
                 />
