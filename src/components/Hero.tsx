@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-xl text-gray-200 mb-8 leading-relaxed">
-          A curated collection of photographic works showcasing the beauty of our world through a unique lens
+          [...?]
         </p>
         
         <button className="px-8 py-3 bg-white text-gray-900 font-medium rounded-full hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105">
