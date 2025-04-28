@@ -40,30 +40,30 @@ export const siteConfig: SiteConfig = {
 export const images: ImageData[] = [
   {
     id: '1',
-    title: 'Mountain Vista',
-    description: 'Serene mountain landscape at sunset',
-    filename: 'landscape-mountain-vista.jpg',
+    title: 'Velib',
+    description: 'Petite balade matinale',
+    filename: 'velib.jpg',
     category: 'landscape'
   },
   {
     id: '2',
-    title: 'Urban Abstract',
-    description: 'Modern architectural patterns',
-    filename: 'architecture-urban-abstract.jpg',
+    title: 'vieu(',
+    description: 'L'âge',
+    filename: 'vieu(.jpg',
     category: 'architecture'
   },
   {
     id: '3',
-    title: 'Ocean Waves',
-    description: 'Dynamic seascape in motion',
-    filename: 'nature-ocean-waves.jpg',
+    title: 'Denis',
+    description: 'Denis contemple',
+    filename: 'denis.jpg',
     category: 'nature'
   },
   {
     id: '4',
-    title: 'Light Study',
-    description: 'Abstract patterns of light and shadow',
-    filename: 'abstract-light-study.jpg',
+    title: 'moulinvert',
+    description: 'Rêve près de chez moi',
+    filename: 'moulinvert.jpg',
     category: 'abstract'
   }
 ];
