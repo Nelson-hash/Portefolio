@@ -117,7 +117,7 @@ export const projects: ProjectData[] = [
     id: '3',
     title: 'Site web',
     description: 'Site web de notre société de production cinématographique',
-    filename: '1horus.jpg',
+    filename: 'horus.jpg',
     link: 'https://horusprod.com',
     category: 'misc'
   }
