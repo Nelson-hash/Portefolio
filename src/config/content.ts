@@ -40,30 +40,37 @@ export const siteConfig: SiteConfig = {
 export const images: ImageData[] = [
   {
     id: '1',
-    title: 'Velib',
-    description: 'Petite balade matinale',
-    filename: 'velib.png',
+    title: 'Galop',
+    description: 'Mémé ride',
+    filename: 'galop.jpg',
     category: 'landscape'
   },
   {
     id: '2',
-    title: 'vieu)',
-    description: '',
-    filename: 'vieu).jpg',
+    title: 'Arbre',
+    description: 'La ville et la nature',
+    filename: 'arbre.jpg',
     category: 'architecture'
   },
   {
     id: '3',
-    title: 'Denis',
-    description: 'Denis contemple',
-    filename: 'denis.jpg',
+    title: 'Serveurs',
+    description: 'Ils font jeunes',
+    filename: 'serveurs.jpg',
     category: 'nature'
   },
   {
     id: '4',
-    title: 'moulinvert',
+    title: 'Velib',
+    description: 'Petite balade matinale',
+    filename: 'velib.jpg',
+    category: 'landscape'
+  },
+  {
+    id: '5',
+    title: 'Boulange',
     description: 'Rêve près de chez moi',
-    filename: 'moulinvert.jpg',
+    filename: 'boulange.jpg',
     category: 'abstract'
   }
 ];
