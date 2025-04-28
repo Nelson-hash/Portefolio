@@ -42,14 +42,14 @@ export const images: ImageData[] = [
     id: '1',
     title: 'Velib',
     description: 'Petite balade matinale',
-    filename: 'velib.jpg',
+    filename: 'velib.png',
     category: 'landscape'
   },
   {
     id: '2',
-    title: 'vieu(',
+    title: 'vieu)',
     description: 'L'age',
-    filename: 'vieu(.jpg',
+    filename: 'vieu).jpg',
     category: 'architecture'
   },
   {
