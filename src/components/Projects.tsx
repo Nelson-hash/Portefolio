@@ -1,6 +1,10 @@
 import { projects } from '../config/content';
 
 const Projects = () => {
+  const getImageUrl = (filename: string) => {
+    return new URL(`../assets/images/projects/${filename}`, import.meta.url).href;
+  };
+
   return (
     <div className="py-16 px-3 sm:px-4 min-h-screen pt-20 sm:pt-24">
       <h2 className="text-3xl sm:text-4xl font-light tracking-wider text-center mb-8 sm:mb-12">
@@ -15,7 +19,7 @@ const Projects = () => {
               className="w-full md:w-1/3 aspect-video overflow-hidden rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
             >
               <img 
-                src={`/src/assets/images/projects/${project.filename}`}
+                src={getImageUrl(project.filename)}
                 alt={project.title}
                 className="w-full h-full object-cover"
               />
