@@ -99,26 +99,26 @@ export const images: ImageData[] = [
 export const projects: ProjectData[] = [
   {
     id: '1',
-    title: 'Vibe Coding',
-    description: 'A collection of coding projects focused on creating immersive digital experiences through creative programming and interactive design.',
-    filename: 'project-vibe-coding.jpg',
-    link: 'https://example.com/vibe-coding',
+    title: 'Quiz IA',
+    description: 'Evaluez votre capacité à reconnaître des vidéos générées par IA',
+    filename: 'quizzia.jpg',
+    link: 'https://quizzia.studiotf1.com',
     category: 'development'
   },
   {
     id: '2',
-    title: 'Video Projects',
-    description: 'Exploring storytelling through motion, featuring a diverse range of video productions from short films to experimental pieces.',
+    title: 'Projets vidéos',
+    description: 'Quelques projets vidéos IA',
     filename: 'project-video-projects.jpg',
     link: 'https://example.com/video-projects',
     category: 'video'
   },
   {
     id: '3',
-    title: 'Miscellaneous',
-    description: 'A curated collection of various creative endeavors, including experimental projects, collaborations, and personal works.',
-    filename: 'project-miscellaneous.jpg',
-    link: 'https://example.com/miscellaneous',
+    title: 'Site web',
+    description: 'Site web de notre société de production cinématographique',
+    filename: 'horus.jpg',
+    link: 'https://horusprod.com',
     category: 'misc'
   }
 ];
