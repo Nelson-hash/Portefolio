@@ -48,7 +48,7 @@ export const images: ImageData[] = [
   {
     id: '2',
     title: 'vieu(',
-    description: 'L'âge',
+    description: 'L'age',
     filename: 'vieu(.jpg',
     category: 'architecture'
   },
